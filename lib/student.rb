@@ -1,4 +1,4 @@
-require 'pry'
+
 
 class Student
 
@@ -12,7 +12,7 @@ class Student
 
   def self.create_from_collection(students_array)
     students_array.collect do |student|
-      binding.pry
+
     end
 
   end
@@ -25,4 +25,3 @@ class Student
 
   end
 end
-
