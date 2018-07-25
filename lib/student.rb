@@ -10,7 +10,7 @@ class Student
     student_hash.map do |att|
       
 binding.pry
-  end 
+    end 
   end
 
   def self.create_from_collection(students_array)
