@@ -30,4 +30,4 @@ student_index_array = {
   {:name=>"Mathieu Balez", :location=>"New York, NY", :profile_url=>"students/mathieu-balez.html"},
   {:name=>"Diane Vu", :location=>"New York, NY", :profile_url=>"students/diane-vu.html"}]
 }
-Student.new()
+Student.new(student_index_array)
