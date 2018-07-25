@@ -7,8 +7,8 @@ class Student
 
   def initialize(student_hash)
 
-    student_hash.map do |att, text|
-      self.send("#{att}=", text)
+    student_hash.map do |att, value|
+      self.send("#{att}=", value)
     end
     @@all << self
   end
@@ -19,8 +19,8 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
+    attributes_hash.each{|att, value| self.send("#{att}=", value)}
 
-binding.pry
   end
 
   def self.all
