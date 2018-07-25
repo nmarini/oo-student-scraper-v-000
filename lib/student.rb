@@ -25,3 +25,5 @@ class Student
 
   end
 end
+
+Student.new(student_index_array)
