@@ -8,7 +8,7 @@ class Student
   def initialize(student_hash)
 
     student_hash.map do |att, text|
-      self.send('#{att}') = text
+      self.send("#{att}") = text
     end
     @@all << self
   end
