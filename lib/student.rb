@@ -9,6 +9,10 @@ class Student
   end
 
   def self.create_from_collection(students_array)
+    students_array.collect do |student| 
+      student = Student.new
+      @@all << student 
+    end 
     
   end
 
