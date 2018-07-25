@@ -7,14 +7,16 @@ class Student
   @@all = []
 
   def initialize(student_hash)
-    student_hash.map do |att|
+    student_hash.map do |att, text|
+
 
 
     end
+    @@all << self
   end
 
   def self.create_from_collection(students_array)
-binding.pry
+
 
   end
 
