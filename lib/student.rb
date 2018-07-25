@@ -9,6 +9,7 @@ class Student
   def initialize(student_hash)
     student_hash.map do |att, text|
       self.send(att) = text
+      binding.pry
     end
     @@all << self
   end
