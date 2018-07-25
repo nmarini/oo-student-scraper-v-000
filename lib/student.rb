@@ -25,9 +25,8 @@ class Student
 
   end
 end
-student_index_array = {
-  [{:name=>"Joe Burgess", :location=>"New York, NY", :profile_url=>"students/joe-burgess.html"},
+student_index_array = [{:name=>"Joe Burgess", :location=>"New York, NY", :profile_url=>"students/joe-burgess.html"},
   {:name=>"Mathieu Balez", :location=>"New York, NY", :profile_url=>"students/mathieu-balez.html"},
   {:name=>"Diane Vu", :location=>"New York, NY", :profile_url=>"students/diane-vu.html"}]
-}
+
 Student.new(student_index_array)
